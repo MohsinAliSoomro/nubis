@@ -1,31 +1,5 @@
 
----
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<br />
-<p align="center">
-  <a href="https://github.com/YourGitHub/Anubis">
-    <img src="./assets/nubis logo.png" alt="Logo" width="380" height="380">
-  </a>
-  
-  <p align="center">
-    All Cleaners, from your phone - to your doorstep. 
-    <br />
-    <a href="https://github.com/YourGitHub/Anubis"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/YourGitHub/Anubis">View Demo</a>
-    ·
-    <a href="https://github.com/YourGitHub/Anubis/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/YourGitHub/Anubis/issues">Request Feature</a>
-  </p>
-</p>
-
-## About The Project
+## Anubis - mobile cleaners on demand.
 
 <img src="./assets/nubis banner.gif" alt="Logo" width="1040" height="540">
 
