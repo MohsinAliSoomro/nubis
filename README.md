@@ -3,7 +3,7 @@
 
 <img src="./assets/nubis banner.gif" alt="Logo" styled="max-width: 100%; height: auto;">
 
-###📍Local Mobile Cleaners On Demand 
+### 📍Local Mobile Cleaners On Demand 
 
 Anubis is an innovative mobile platform designed to revolutionize the way users book and receive services. With a focus on user experience and accessibility, Anubis connects customers with a wide range of service providers for immediate bookings and mobile home visits. This repository contains the user-facing mobile application, ready to set the standard for service convenience.
 
