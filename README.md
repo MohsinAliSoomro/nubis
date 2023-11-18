@@ -1,7 +1,5 @@
-Here's a README template tailored for your 'Anubis' app using Expo and React Native with AWS Amplify for the backend:
 
 ---
-
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -12,9 +10,9 @@ Here's a README template tailored for your 'Anubis' app using Expo and React Nat
   <a href="https://github.com/YourGitHub/Anubis">
     <img src="./assets/nubis logo.png" alt="Logo" width="380" height="380">
   </a>
-  <h3 align="center">Anubis App</h3>
+  
   <p align="center">
-    Cleaners, from your phone to your doorstep. 
+    All Cleaners, from your phone - to your doorstep. 
     <br />
     <a href="https://github.com/YourGitHub/Anubis"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,7 +81,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Your Name - email@example.com
+Wilson Lee - wilson.lee.ac.uk@gmail.com
 
 Project Link: [https://github.com/YourGitHub/Anubis](https://github.com/YourGitHub/Anubis)
 
@@ -105,5 +103,3 @@ Project Link: [https://github.com/YourGitHub/Anubis](https://github.com/YourGitH
 [product-screenshot]: images/screenshot.png
 
 ---
-
-Remember to replace the placeholders with your actual information, like your GitHub username, LinkedIn profile, and contact details. Also, ensure that the paths to the images and badges are correct and that they display properly on your GitHub repository.
