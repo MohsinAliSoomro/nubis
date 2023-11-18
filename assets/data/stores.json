@@ -1,0 +1,126 @@
+[
+  {
+    "id": "1",
+    "name": "Anyclean, Colchester, Essex ",
+    "category": "Indoor Cleaning", 
+    "deliveryFee": 2.99,
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 35,
+    "rating": 4.0,
+    "logo":"https://shinebright.cc/wp-content/uploads/2022/11/Shine-Bright-Cleaning-Logo.png",
+    "image": "https://i.dailymail.co.uk/1s/2019/08/26/01/17686528-7393969-image-a-51_1566780716617.jpg",
+    "services": [
+      {
+        "name": "Standard Cleaning",
+        "description": "General cleaning of all rooms. Includes dusting, sweeping, mopping, and garbage removal.",
+        "price": 25.00,
+        "image": "https://images.unsplash.com/photo-1563210259-d1fa2b13c2f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xlYW5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Thorough cleaning of all rooms. Includes windows, carpets, and appliances.",
+        "price": 50.00,
+        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVlcCUyMGNsZWFuaW5nfGVufDB8fDB8fHw%3D&w=1000&q=80"
+      },
+      {
+        "name": "Carpet Cleaning (Max)",
+        "description": "Deep cleaning of carpets using specialized equipment.",
+        "price": 40.00,
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "name": "Window Cleaning",
+        "description": "Cleaning of windows, both inside and out.",
+        "price": 20.00,
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/04/21/09/Window%20Cleaning.jpg?width=1200"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "CleanMaster, Colchester",
+    "category": "Indoor Cleaning", 
+    "deliveryFee": 4.99,
+    "minDeliveryTime": 40,
+    "maxDeliveryTime": 60,
+    "rating": 4.5,
+    "logo":"https://t3.ftcdn.net/jpg/02/74/28/42/360_F_274284248_ioeiQBE5J7yUzz6QgdzgPIlWY6xZl9RJ.jpg",
+    "image": "https://media.angi.com/s3fs-public/professional-cleaning-service-1417833128.jpeg",
+    "services": [
+      {
+        "name": "Basic House Cleaning",
+        "description": "Standard cleaning service for rooms, kitchen, and bathroom. Does not include deep cleaning.",
+        "price": 50.00,
+        "image": "https://images.unsplash.com/photo-1563210259-40c2c5d5f916?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xlYW5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Intensive cleaning service that includes all nooks and crannies. Recommended for post-renovation or once in a while thorough cleaning.",
+        "price": 120.00,
+        "image": "https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNsZWFuaW5nfGVufDB8fDB8fHww&w=1000&q=80"
+      },
+      {
+        "name": "Office Cleaning",
+        "description": "Professional cleaning service tailored for office spaces. Includes common areas, workstations, and restrooms.",
+        "price": 90.00,
+        "image": "https://images.unsplash.com/photo-1554456854-55a089fd4cbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG9mZmljZSUyMGNsZWFuaW5nfGVufDB8fDB8fHww&w=1000&q=80"
+      },
+      {
+        "name": "Carpet Cleaning",
+        "description": "Specialized cleaning for carpets using advanced equipment and detergents. Effective in stain and dirt removal.",
+        "price": 40.00,
+        "image": "https://images.unsplash.com/photo-1562194263-964ec3c76a6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FycGV0JTIwY2xlYW5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "ShineBright, Ipswich",
+    "category": "Outdoor Cleaning", 
+    "deliveryFee": 5.99,
+    "minDeliveryTime": 45,
+    "maxDeliveryTime": 70,
+    "rating": 4.7,
+    "logo":"https://www.sbwcleaning.co.uk/cdn/shop/files/sbwc-logo-mobile_410x.png?v=1613768572",
+    "image": "https://www.axa.co.uk/globalassets/images/professional-Cleaner-cleaning-a-table.jpg?width=&quality=80",
+    "services": [
+      {
+        "name": "Window Cleaning",
+        "description": "Professional window cleaning for both residential and commercial properties. Streak-free finish.",
+        "price": 60.00,
+        "image": "https://images.unsplash.com/photo-1601933470096-0e34634ffcde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2luZG93JTIwY2xlYW5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      },
+      {
+        "name": "Pool Cleaning",
+        "description": "Complete pool cleaning and maintenance service. Includes water treatment, skimming, and vacuuming.",
+        "price": 100.00,
+        "image": "https://images.unsplash.com/photo-1576678927484-cc907957088f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9vbCUyMGNsZWFuaW5nfGVufDB8fDB8fHww&w=1000&q=80"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Ben's Window Cleaning, Essex",
+    "category": "Window Cleaning", 
+    "deliveryFee": 6.50,
+    "minDeliveryTime": 50,
+    "maxDeliveryTime": 75,
+    "rating": 4.8,
+    "logo":"https://i.pinimg.com/originals/f7/e7/d7/f7e7d740be56c789d91aa85d7e6f9f26.png",
+    "image": "https://storables.com/wp-content/uploads/2021/12/Featured-Photo-for-Window-Cleaners-1024x576.jpeg",
+    "services": [
+      {
+        "name": "Garden Cleaning",
+        "description": "Thorough cleaning and maintenance of gardens. Includes leaf removal, lawn mowing, and hedge trimming.",
+        "price": 80.00,
+        "image": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVuJTIwY2xlYW5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      },
+      {
+        "name": "Garage Cleaning",
+        "description": "Organizing and cleaning of garages. Includes dusting, sweeping, and decluttering.",
+        "price": 70.00,
+        "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FyYWdlJTIwY2xlYW5pbmd8ZW58MHx8"
+      }
+    ]
+  }
+]
