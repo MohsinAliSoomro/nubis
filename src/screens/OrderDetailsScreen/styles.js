@@ -34,7 +34,6 @@ export default StyleSheet.create({
     },
 
     container: {
-        margin: 8,
         backgroundColor: 'white', 
         padding: 20,
         borderRadius: 10,
