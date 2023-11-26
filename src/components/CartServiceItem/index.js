@@ -5,7 +5,7 @@ const CartServiceItem = ({ cartService }) => {
     return (
         <View style={styles.row}>
             <View style={styles.quantityContainer}>
-                <Text style={styles.quantityText}>1</Text>
+                <Text style={styles.quantityText}>1x</Text>
             </View>
             <Text style={styles.serviceName}>{cartService.name}</Text>
             <View style={styles.priceContainer}>
@@ -20,16 +20,11 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginVertical: 8,
-        marginHorizontal: 20,
+        marginVertical: 3,
         padding: 10,
-        backgroundColor: '#FAFAFA',
-        borderRadius: 15,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 1 },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        elevation: 3,
+        
+        
+        
     },
     quantityContainer: {
         backgroundColor: '#EDEDED',

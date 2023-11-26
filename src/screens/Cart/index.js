@@ -35,12 +35,12 @@ const styles = StyleSheet.create({
     },
     name: {
         fontSize: 26,
-        fontWeight: '700',
+        fontWeight: '600',
         color: '#333',
         marginBottom: 10,
     },
     itemLabel: {
-        fontWeight: '600',
+        fontWeight: '500',
         marginTop: 20,
         fontSize: 20,
         color: '#555',
