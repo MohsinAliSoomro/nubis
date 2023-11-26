@@ -19,7 +19,7 @@ const OrderDetailsHeader = () => {
             <View style={styles.container}>
                 <Text style={styles.title}>{order.Store.name}</Text>
                 <View style={styles.categoryContainer}>
-                <MaterialIcons name="category" size={17} color="#555" style={styles.iconLeft} />
+                <MaterialIcons name="category" size={16} color="#555" style={styles.iconLeft} />
                     <Text style={styles.category}>{stores[0].category}</Text>
                 </View>
                 <View style={styles.statusContainer}>
