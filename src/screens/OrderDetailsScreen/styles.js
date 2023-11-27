@@ -13,8 +13,8 @@ export default StyleSheet.create({
     },
 
     title: {
-        fontSize: 20,
-        fontWeight: "700",
+        fontSize: 24,
+        fontWeight: "800",
         color: '#333',
         marginBottom: 10,
     },
@@ -34,8 +34,8 @@ export default StyleSheet.create({
     },
 
     container: {
-        backgroundColor: 'white', 
-        padding: 20,
+        marginLeft: 20,
+        marginTop: 20,
         borderRadius: 10,
         shadowColor: '#d1dbe8',
         shadowOffset: { width: -10, height: -10 },

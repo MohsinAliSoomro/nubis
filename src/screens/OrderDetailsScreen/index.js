@@ -27,7 +27,7 @@ const OrderDetailsHeader = () => {
                     <Text style={styles.subtitle}>{order.status} &#8226; 2 days ago</Text>
                 </View>
             </View>
-            <Text style={styles.menuTitle}>Your orders</Text>
+            <Text style={styles.menuTitle}>Your orders:</Text>
         </View>
     );
 };

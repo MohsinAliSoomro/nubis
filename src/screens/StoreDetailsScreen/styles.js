@@ -9,7 +9,7 @@ export default StyleSheet.create({
 
     iconContainer: {
         position: 'absolute',
-        top: 28,
+        top: 45,
         left: 10,
         elevation: 20,
         shadowColor: '#171717',

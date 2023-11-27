@@ -1,5 +1,8 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
+
 import HomeScreen from '../screens/HomeScreen';
 import BrowserPage from '../screens/Browse'
 import ServiceDetailsScreen from '../screens/ServiceDetailsScreen';
@@ -9,9 +12,6 @@ import OrdersScreen from '../screens/OrdersScreen';
 import OrderDetailScreen from '../screens/OrderDetailsScreen';
 import ProfileScreen from '../screens/ProfileScreen'
 import { Foundation, FontAwesome5, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
-
-
-import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,11 +25,12 @@ const RootNavigator = () => {
     );
 };
 
-const Tab = createMaterialBottomTabNavigator();
+const Tab = createBottomTabNavigator();
 
 const HomeTabs = () => {
     return (
-        <Tab.Navigator barStyle={{ backgroundColor: "white" }}>
+        <Tab.Navigator screenOptions={{ headerShown: false }}
+            barStyle={{ backgroundColor: "white", paddingTop: 10,}}>
             <Tab.Screen name="Home"
                 component={HomeStackNavigator}
                 options={{
@@ -38,11 +39,11 @@ const HomeTabs = () => {
                     ),
                 }}
             />
-            <Tab.Screen name="Search"
+            <Tab.Screen name="Search" 
                 component={BrowserPage}
                 options={{
                     tabBarIcon: ({ color }) => (
-                        <MaterialCommunityIcons name="store-search-outline" size={24} color="black" />
+                        <MaterialIcons name="search" size={24} color={color} />
                     ),
                 }}
             />
@@ -50,7 +51,7 @@ const HomeTabs = () => {
                 component={OrdersStackNavigator}
                 options={{
                     tabBarIcon: ({ color }) => (
-                        <MaterialIcons name="list-alt" size={24} color={color} />
+                        <MaterialIcons name="calendar-today" size={22} color={color} />
                     ),
                 }}
             />
@@ -58,7 +59,7 @@ const HomeTabs = () => {
                 component={ProfileScreen}
                 options={{
                     tabBarIcon: ({ color }) => (
-                        <FontAwesome5 name="user-alt" size={24} color={color} />
+                        <FontAwesome5 name="user-alt" size={22} color={color} />
                     ),
                 }}
             />
@@ -73,7 +74,7 @@ const HomeStackNavigator = () => {
     return (
         <HomeStack.Navigator>
             <HomeStack.Screen name="Stores" component={HomeScreen} />
-            <HomeStack.Screen name="StoreDetails" component={StoreDetailsScreen} />
+            <HomeStack.Screen name="StoreDetails" component={StoreDetailsScreen} options={{ headerShown: false }}/>
             <HomeStack.Screen name="Service" component={ServiceDetailsScreen} />
             <HomeStack.Screen name="Cart" component={Cart} />
 
