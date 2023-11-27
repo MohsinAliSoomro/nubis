@@ -1,24 +1,27 @@
 type Service @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String!
-  price: Float!
   image: String
   description: String
+  price: Float!
   storeID: ID! @index(name: "byStore")
 }
 
 type Store @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String!
-  logo: String
   category: String!
-  image: String!
   deliveryFee: Float!
   minDeliveryTime: Int!
   maxDeliveryTime: Int!
-  rating: Float
+  rating: Float!
+  logo: String
+  image: String!
+  services: String
+  postcode: String
   address: String!
-  lat: Float!
-  lng: Float!
+  lng: Float
+  lat: Float
   Services: [Service] @hasMany(indexName: "byStore", fields: ["id"])
 }
+ 
