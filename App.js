@@ -1,37 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { StatusBar, ImageBackground, StyleSheet, View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 import RootNavigator from './src/navigation';
-import * as SplashScreen from 'expo-splash-screen';
+import { NavigationContainer } from '@react-navigation/native';
+import { Amplify } from 'aws-amplify';
+import config from './src/aws-exports';
+import { withAuthenticator } from 'aws-amplify-react-native';
 
-export default function App() {
-  const [isGifShown, setIsGifShown] = useState(false);
+Amplify.configure(config);
 
-  useEffect(() => {
-    // Prevent the splash screen from hiding
-    SplashScreen.preventAutoHideAsync()
-      .then(() => setIsGifShown(true))
-      .catch((error) => console.error(error));
-  }, []);
-
-  if (isGifShown) {
-    return (
-      <ImageBackground
-        source={require('./assets/splash.gif')}
-        style={styles.container}
-        onLoadEnd={() => {
-          // Hide the splash screen and GIF after it's loaded
-          setTimeout(() => {
-            SplashScreen.hideAsync();
-            setIsGifShown(false);
-          }, 5000); // Assuming GIF duration is 5 seconds
-        }}
-      >
-        <Text style={styles.descriptionText}>ordo.com - on demand cleaning services.</Text>
-      </ImageBackground>
-    );
-  }
-
+function App() {
   return (
     <NavigationContainer>
       <RootNavigator />
@@ -40,18 +18,9 @@ export default function App() {
   );
 }
 
+// If you have defined styles, make sure to include them here
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    paddingBottom: 20, // Padding at the bottom to ensure the text isn't right at the edge
-  },
-  descriptionText: {
-    fontSize: 16,
-    color: '#333',
-    textAlign: 'center',
-    marginBottom: 10, // Adjust this value to place the text higher or lower
-  },
+  // Your styles if any
 });
+
+export default withAuthenticator(App);
