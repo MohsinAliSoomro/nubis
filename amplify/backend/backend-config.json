@@ -29,7 +29,7 @@
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
         "mfaTypes": [
-          "SMS"
+          "TOTP"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyCharacters": [

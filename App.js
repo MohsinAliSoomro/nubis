@@ -17,10 +17,4 @@ function App() {
     </NavigationContainer>
   );
 }
-
-// If you have defined styles, make sure to include them here
-const styles = StyleSheet.create({
-  // Your styles if any
-});
-
 export default withAuthenticator(App);

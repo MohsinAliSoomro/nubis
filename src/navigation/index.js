@@ -7,6 +7,7 @@ import StoreDetailsScreen from '../screens/StoreDetailsScreen';
 import Cart from '../screens/Cart';
 import OrdersScreen from '../screens/OrdersScreen';
 import OrderDetailScreen from '../screens/OrderDetailsScreen';
+import ProfileScreen from '../screens/ProfileScreen'
 import { Foundation, FontAwesome5, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 
@@ -20,7 +21,6 @@ const RootNavigator = () => {
             <Stack.Screen name="HomeTabs" component={HomeTabs}
             // options={{ headerShown: false }}
             />
-
         </Stack.Navigator>
     );
 };
@@ -54,8 +54,8 @@ const HomeTabs = () => {
                     ),
                 }}
             />
-            <Tab.Screen name="You" 
-                component={OrdersScreen}
+            <Tab.Screen name="Profile" 
+                component={ProfileScreen}
                 options={{
                     tabBarIcon: ({ color }) => (
                         <FontAwesome5 name="user-alt" size={24} color={color} />
