@@ -127,10 +127,17 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "minDeliveryTime": {
-                    "name": "minDeliveryTime",
+                "address": {
+                    "name": "address",
                     "isArray": false,
-                    "type": "Int",
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "postcode": {
+                    "name": "postcode",
+                    "isArray": false,
+                    "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
@@ -141,17 +148,10 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "rating": {
-                    "name": "rating",
+                "minDeliveryTime": {
+                    "name": "minDeliveryTime",
                     "isArray": false,
-                    "type": "Float",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "logo": {
-                    "name": "logo",
-                    "isArray": false,
-                    "type": "String",
+                    "type": "Int",
                     "isRequired": false,
                     "attributes": []
                 },
@@ -177,6 +177,20 @@ export const schema = {
                             "storeID"
                         ]
                     }
+                },
+                "logo": {
+                    "name": "logo",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "rating": {
+                    "name": "rating",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": false,
+                    "attributes": []
                 },
                 "createdAt": {
                     "name": "createdAt",
@@ -224,5 +238,5 @@ export const schema = {
     "enums": {},
     "nonModels": {},
     "codegenVersion": "3.4.4",
-    "version": "1497b15dd38c2d0aa3dc56fc5b74dbac"
+    "version": "bdb07d293d28afa66256e0794a219e3e"
 };
