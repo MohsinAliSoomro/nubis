@@ -10,7 +10,8 @@ export default function HomeScreen() {
 
   const fetchStores = async () => {
     const results = await DataStore.query(Store);
-    setStores(results); 
+    // setStores(results); 
+    console.log(results) //trying to return the data in the terminal 
   };
 
   useEffect(() => {
