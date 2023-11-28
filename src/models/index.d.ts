@@ -2,6 +2,10 @@ import { ModelInit, MutableModel, __modelMeta__, ManagedIdentifier } from "@aws-
 // @ts-ignore
 import { LazyLoading, LazyLoadingDisabled, AsyncCollection } from "@aws-amplify/datastore";
 
+
+
+
+
 type EagerService = {
   readonly [__modelMeta__]: {
     identifier: ManagedIdentifier<Service, 'id'>;
@@ -47,12 +51,14 @@ type EagerStore = {
   readonly name: string;
   readonly category?: string | null;
   readonly deliveryFee?: number | null;
-  readonly minDeliveryTime?: number | null;
+  readonly address?: string | null;
+  readonly postcode?: string | null;
   readonly maxDeliveryTime?: number | null;
-  readonly rating?: number | null;
-  readonly logo?: string | null;
+  readonly minDeliveryTime?: number | null;
   readonly image: string;
   readonly Services?: (Service | null)[] | null;
+  readonly logo?: string | null;
+  readonly rating?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
@@ -66,12 +72,14 @@ type LazyStore = {
   readonly name: string;
   readonly category?: string | null;
   readonly deliveryFee?: number | null;
-  readonly minDeliveryTime?: number | null;
+  readonly address?: string | null;
+  readonly postcode?: string | null;
   readonly maxDeliveryTime?: number | null;
-  readonly rating?: number | null;
-  readonly logo?: string | null;
+  readonly minDeliveryTime?: number | null;
   readonly image: string;
   readonly Services: AsyncCollection<Service>;
+  readonly logo?: string | null;
+  readonly rating?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
