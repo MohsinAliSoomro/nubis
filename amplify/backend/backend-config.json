@@ -1,6 +1,6 @@
 {
   "api": {
-    "Anubis": {
+    "nubis": {
       "dependsOn": [],
       "output": {
         "authConfig": {
@@ -23,13 +23,13 @@
     }
   },
   "auth": {
-    "Anubis": {
+    "nubis": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
         "mfaTypes": [
-          "TOTP"
+          "SMS"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyCharacters": [

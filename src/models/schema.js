@@ -14,13 +14,6 @@ export const schema = {
                     "name": "name",
                     "isArray": false,
                     "type": "String",
-                    "isRequired": true,
-                    "attributes": []
-                },
-                "image": {
-                    "name": "image",
-                    "isArray": false,
-                    "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
@@ -36,6 +29,13 @@ export const schema = {
                     "isArray": false,
                     "type": "Float",
                     "isRequired": true,
+                    "attributes": []
+                },
+                "image": {
+                    "name": "image",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
                     "attributes": []
                 },
                 "storeID": {
@@ -117,35 +117,35 @@ export const schema = {
                     "name": "category",
                     "isArray": false,
                     "type": "String",
-                    "isRequired": true,
+                    "isRequired": false,
                     "attributes": []
                 },
                 "deliveryFee": {
                     "name": "deliveryFee",
                     "isArray": false,
                     "type": "Float",
-                    "isRequired": true,
+                    "isRequired": false,
                     "attributes": []
                 },
                 "minDeliveryTime": {
                     "name": "minDeliveryTime",
                     "isArray": false,
                     "type": "Int",
-                    "isRequired": true,
+                    "isRequired": false,
                     "attributes": []
                 },
                 "maxDeliveryTime": {
                     "name": "maxDeliveryTime",
                     "isArray": false,
                     "type": "Int",
-                    "isRequired": true,
+                    "isRequired": false,
                     "attributes": []
                 },
                 "rating": {
                     "name": "rating",
                     "isArray": false,
                     "type": "Float",
-                    "isRequired": true,
+                    "isRequired": false,
                     "attributes": []
                 },
                 "logo": {
@@ -160,41 +160,6 @@ export const schema = {
                     "isArray": false,
                     "type": "String",
                     "isRequired": true,
-                    "attributes": []
-                },
-                "services": {
-                    "name": "services",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "postcode": {
-                    "name": "postcode",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "address": {
-                    "name": "address",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": true,
-                    "attributes": []
-                },
-                "lng": {
-                    "name": "lng",
-                    "isArray": false,
-                    "type": "Float",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "lat": {
-                    "name": "lat",
-                    "isArray": false,
-                    "type": "Float",
-                    "isRequired": false,
                     "attributes": []
                 },
                 "Services": {
@@ -259,5 +224,5 @@ export const schema = {
     "enums": {},
     "nonModels": {},
     "codegenVersion": "3.4.4",
-    "version": "edbb4e44df8481e0ecae577a51874ef4"
+    "version": "1497b15dd38c2d0aa3dc56fc5b74dbac"
 };
