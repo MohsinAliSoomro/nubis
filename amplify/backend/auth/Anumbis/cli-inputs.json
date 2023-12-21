@@ -3,8 +3,8 @@
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "nubisa7654ecc",
-    "userPoolName": "nubis",
+    "resourceNameTruncated": "anumbie57e2caf",
+    "userPoolName": "Anumbis",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -30,10 +30,10 @@
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "nubisa7654ecc_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "Anumbie57e2caf_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "a7654ecc",
-    "resourceName": "nubis",
+    "sharedId": "e57e2caf",
+    "resourceName": "Anumbis",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
     "usernameAttributes": [
@@ -46,21 +46,6 @@
     "thirdPartyAuth": false,
     "authProviders": [],
     "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": [],
-    "hostedUI": false
+    "useEnabledMfas": true
   }
 }

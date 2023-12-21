@@ -1,19 +1,19 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-nubis-staging-185039-authRole",
-      "UnauthRoleArn": "arn:aws:iam::457332275181:role/amplify-nubis-staging-185039-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::457332275181:role/amplify-nubis-staging-185039-authRole",
-      "Region": "eu-west-2",
-      "DeploymentBucketName": "amplify-nubis-staging-185039-deployment",
-      "UnauthRoleName": "amplify-nubis-staging-185039-unauthRole",
-      "StackName": "amplify-nubis-staging-185039",
-      "StackId": "arn:aws:cloudformation:eu-west-2:457332275181:stack/amplify-nubis-staging-185039/dc4af2e0-8d55-11ee-bcc3-02a86b6e0e26",
-      "AmplifyAppId": "d1yln2v9lh3403"
+      "AuthRoleName": "amplify-anumbis-staging-134924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::457332275181:role/amplify-anumbis-staging-134924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::457332275181:role/amplify-anumbis-staging-134924-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-anumbis-staging-134924-deployment",
+      "UnauthRoleName": "amplify-anumbis-staging-134924-unauthRole",
+      "StackName": "amplify-anumbis-staging-134924",
+      "StackId": "arn:aws:cloudformation:us-east-1:457332275181:stack/amplify-anumbis-staging-134924/c06258b0-a007-11ee-9151-0ab2d7b5f097",
+      "AmplifyAppId": "d21d18rt0am0sq"
     },
     "categories": {
       "auth": {
-        "nubis": {}
+        "Anumbis": {}
       }
     }
   }

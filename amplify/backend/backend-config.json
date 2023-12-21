@@ -1,6 +1,6 @@
 {
   "api": {
-    "nubis": {
+    "Anumbis": {
       "dependsOn": [],
       "output": {
         "authConfig": {
@@ -23,7 +23,7 @@
     }
   },
   "auth": {
-    "nubis": {
+    "Anumbis": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

@@ -2,9 +2,11 @@ import { useState, useEffect } from 'react';
 import { StyleSheet, View, FlatList } from 'react-native';
 import StoreItem from '../../components/StoreItem';
 // import stores from '../../../assets/data/stores.json';
-import '@azure/core-asynciterator-polyfill'; 
+import '@azure/core-asynciterator-polyfill'
+
+
 import { DataStore } from 'aws-amplify';
-import { Store } from '../../models';
+// import { Store } from '../../models';
 
 export default function HomeScreen() {
   const [stores, setStores] = useState([]);

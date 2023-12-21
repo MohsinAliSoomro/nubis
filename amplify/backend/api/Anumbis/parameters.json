@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "Anumbis",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-12-21T14:41:51.514Z"
+}
