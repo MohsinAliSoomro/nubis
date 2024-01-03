@@ -1,22 +1,30 @@
 {
   "version": 1,
   "serviceConfiguration": {
-    "apiName": "Anumbis",
+    "apiName": "anumbis",
     "serviceName": "AppSync",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "keyDescription": "api key description",
-      "expirationTime": 30
+      "expirationTime": 7
     },
-    "additionalAuthTypes": [
-      {
-        "mode": "AWS_IAM"
-      }
-    ],
     "conflictResolution": {
       "defaultResolutionStrategy": {
-        "type": "NONE"
-      }
+        "type": "AUTOMERGE"
+      },
+      "perModelResolutionStrategy": [
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "Store"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "Service"
+        }
+      ]
     }
   }
 }

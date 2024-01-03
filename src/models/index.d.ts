@@ -2,6 +2,10 @@ import { ModelInit, MutableModel, __modelMeta__, ManagedIdentifier } from "@aws-
 // @ts-ignore
 import { LazyLoading, LazyLoadingDisabled, AsyncCollection } from "@aws-amplify/datastore";
 
+
+
+
+
 type EagerStore = {
   readonly [__modelMeta__]: {
     identifier: ManagedIdentifier<Store, 'id'>;
